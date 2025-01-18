@@ -1,0 +1,26 @@
+meta {
+  name: Sign-Up User
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/api/auth/signup
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Mark Smith",
+    "email": "mark.smith@test.com",
+    "password": "H90kjska",
+    "phones": [
+      {
+        "number": 12345678,
+        "citycode": 12,
+        "contrycode": "US"
+      }
+    ]
+  }
+}

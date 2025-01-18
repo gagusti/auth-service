@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Authtenticate Users",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
